@@ -5,6 +5,7 @@ import com.shop.api.Shootable;
 
 public class Firearms extends Weapon implements Loadable, Shootable {
 
+
     @Override
     public void buy() {
 
@@ -12,7 +13,7 @@ public class Firearms extends Weapon implements Loadable, Shootable {
 
     @Override
     public void testWeapon() {
-
+        System.out.println("testing firearm");
     }
 
     @Override
@@ -24,4 +25,5 @@ public class Firearms extends Weapon implements Loadable, Shootable {
     public void shoot() {
 
     }
+
 }
