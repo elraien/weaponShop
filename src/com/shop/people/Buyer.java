@@ -12,7 +12,7 @@ public class Buyer {
         return totalSumInWallet;
     }
 
-//    public double payForWeapon(){
-//        return totalSumInWallet - price;
-//    }
+    //TODO: cart with shopping items (map?)
+
+
 }
